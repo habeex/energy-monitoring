@@ -1,10 +1,10 @@
-enum MeasuringUnit { Watt, Kilowatt }
+enum MeasuringUnit { Watts, Kilowatts }
 
 extension MeasuringUnitExt on MeasuringUnit {
   String get unit => switch (this) {
-        MeasuringUnit.Watt => 'W',
-        MeasuringUnit.Kilowatt => 'kWh',
+        MeasuringUnit.Watts => 'W',
+        MeasuringUnit.Kilowatts => 'kWh',
       };
 
-  bool get isWatt => this == MeasuringUnit.Watt;
+  bool get isWatt => this == MeasuringUnit.Watts;
 }

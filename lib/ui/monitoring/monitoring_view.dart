@@ -29,7 +29,7 @@ class _MonitoringViewState extends ConsumerState<MonitoringView>
   }
 
   DateTime selectedDate = DateTime.now();
-  MeasuringUnit _unitSelected = MeasuringUnit.Watt;
+  MeasuringUnit _unitSelected = MeasuringUnit.Watts;
 
   @override
   Widget build(BuildContext context) {
@@ -117,8 +117,8 @@ class _MonitoringViewState extends ConsumerState<MonitoringView>
                     autofocus: false,
                     underline: const SizedBox.shrink(),
                     items: <MeasuringUnit>[
-                      MeasuringUnit.Watt,
-                      MeasuringUnit.Kilowatt,
+                      MeasuringUnit.Watts,
+                      MeasuringUnit.Kilowatts,
                     ].map((MeasuringUnit value) {
                       return DropdownMenuItem<MeasuringUnit>(
                         value: value,
