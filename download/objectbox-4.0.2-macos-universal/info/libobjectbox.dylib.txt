@@ -1,0 +1,17 @@
+libobjectbox.dylib:
+  >> Date: 2024-10-15 16:10:05
+  >> Size: 5641040
+  >> Section types: __TEXT, __DATA, __OBJC
+  >> Sizes by type: 1638400, 16384, 0
+  >> Info: Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit dynamically linked shared library x86_64] [arm64]
+/Volumes/GrayBoxSsd/gitlab-builds/hYL5zQGV/0/objectbox/objectbox/cbuild/Release/objectbox-c/libobjectbox.dylib (for architecture x86_64):	Mach-O 64-bit dynamically linked shared library x86_64
+/Volumes/GrayBoxSsd/gitlab-builds/hYL5zQGV/0/objectbox/objectbox/cbuild/Release/objectbox-c/libobjectbox.dylib (for architecture arm64):	Mach-O 64-bit dynamically linked shared library arm64
+  >> Version found: 4.0.2-2024-10-15
+  >>     9437 internal symbols. C: 0 mdb, 0 Dart, 2173 GCC
+  >> 0 internal C++ namespace symbols: 0 objectbox, 0 std, 0 flatbuffers
+  >>      227 external symbols: 0 std namespace, 0 pthread
+  >> Exported C symbols: 448 obx, 58 obx_sync, 0 JNI, 0 lws, 0 mbedtls, 0 OPENSSL
+  >> 0 exported C++ namespace symbols: 0 objectbox, 0 std
+  >> Architectures: x86_64 arm64
+  >> SHA256: 946792ebf36fe3756f37391592582ce8026525dd337107c226975b344a59d817
+  Config: C++17, AppleClang 15.0.0.15000040, Features=VectorSearch;Lmdb;Wal;User   
