@@ -1,8 +1,8 @@
-# 🌞 Flutter Data Monitoring Tool 🌟
+# 🌞 Energy Monitoring Application 🌟
 
 ## 🌟 Overview
 
-This project is a **Data Monitoring Tool** for customers with solar energy systems such as 🌞 **solar panels**, 🔌 **wallbox**, and ❄️ **heat pumps**. The application visualizes real-time data for power generation and consumption through a 📈 **graph-based interface**.
+This project is a **Energy Monitoring Application** for customers with solar energy systems such as 🌞 **solar panels**, 🔌 **wallbox**, and ❄️ **heat pumps**. The application visualizes real-time data for power generation and consumption through a 📈 **graph-based interface**.
 
 ---
 
