@@ -139,6 +139,17 @@ class _MonitoringViewState extends ConsumerState<MonitoringView>
                   loading: (v) {
                     return const Center(child: CircularProgressIndicator());
                   },
+                  error: (state) {
+                    return Center(
+                      child: Text(
+                        state.error,
+                        style: TextStyle(
+                          fontSize: 14,
+                          color: context.colorScheme.secondary,
+                        ),
+                      ),
+                    );
+                  },
                   success: (value) {
                     final sum = value.monitoring
                         .fold(0, (total, item) => total + item.value);
